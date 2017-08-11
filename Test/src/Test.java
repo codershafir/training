@@ -14,7 +14,7 @@ public class Test {
 		File f = new File("C:/Users/Mohammed/Desktop/My photos/IMG_0276.JPG");
 		ImageIO.write(b, "jpg",new File("C:\\out.jpg"));
 	} catch (IOException e) {
-		
+		 
 		e.printStackTrace();
 	}
 	}
